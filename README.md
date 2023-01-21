@@ -1,10 +1,10 @@
 # Arre
 Arre Assignment
 
-About the app.js file:
+About the Arre.js file:
 This application uses the Express.js framework to handle routing and the body-parser package to parse the request body. It also uses the axios package to make the API calls.
-The first API endpoint /groups/:id/messages is a GET endpoint that loads all the group messages in a paginated manner. This API takes in the group id as a path parameter and page and limit as query parameters and returns the messages for the specified group.
-The second API endpoint /groups/:id/messages is a POST endpoint that creates a message in the group. This API takes in the group id as a path parameter and a JSON object in the request body containing the user's phone number and message and returns a success message after inserting a message in the group.
+The first API endpoint is a GET endpoint that loads all the group messages in a paginated manner. This API takes in the group id as a path parameter and page and limit as query parameters and returns the messages for the specified group.
+The second API endpoint is a POST endpoint that creates a message in the group. This API takes in the group id as a path parameter and a JSON object in the request body containing the user's phone number and message and returns a success message after inserting a message in the group.
 
 About the schema:
 
